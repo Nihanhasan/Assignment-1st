@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 110px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    width: 110px;
+    height: 30px;
+    background: #FFFFFF;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* header style */
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    margin-left: 1120px;
+    width: 300px;
+    height: 400px;
+    padding-top: 200px;
+    text-align: right;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.heading-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* main part start style */
+
+.middle-part {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 700px;
+    margin: 0px auto;
+}
+
+.person {
+    height: 500px;
+}
+
+.middle {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.middle p {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* my plans part style  */
+.container-title {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.plan {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* gardient image part style   */
+
+.grad {
+    background-image: linear-gradient(to right, rgba(192, 92, 9, 0.73), rgba(119, 119, 124, 0.52)), url(images/watch.png);
+    width: 70%;
+    height: 300px;
+    margin: 90px auto;
+    border-radius: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+/* myself part style */
+.Myself {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+}
+
+.my-pic img {
+    width: 80%;
+}
+
+.Myself-para {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    width: 100%;
+}
+
+span {
+    color: rgba(65, 35, 175, 0.925);
+}
+
+.btn-myself {
+    width: 110px;
+    height: 30px;
+    color: #75114b;
+    background: #b9c415;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* Footer part style */
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.future-part {
+    width: 40%;
+    height: 250px;
+}
+
+.future-part img {
+    margin-right: 5px;
+    height: 30px;
+}
+
+
+.subscribe-part {
+    width: 30%;
+}
+
+.subscribe-part input {
+    background-color: black;
+    border: 1px solid #7e7878;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
